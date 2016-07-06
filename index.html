@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Etch-A-Sketch</title>   
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <div class="main">
+      <!-- Title and User Controls Box-->
+      <div class="ctrl">
+        <h1>Etch-A-Sketch</h1>
+        <ul>
+          <li>
+            <form>
+              Grid Size: <input type="text" id="grid" value="64">
+            </form>
+          </li>
+          <li>
+            <button>Create</button>
+            <button>Clear</button>
+          </li>
+          <li id="src">
+            <a href="#">Source</a>
+          </li>
+        </ul>
+      </div>
+      <!-- The Sketchpad Area-->
+      <div class="pad">
+        <div class="square"></div>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/etch.js"></script>
+  </body>
+</html>
